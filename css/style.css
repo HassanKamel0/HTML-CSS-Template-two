@@ -66,6 +66,9 @@ header .container::after {
     width: calc(100% - 30px);
     left: 15px;
 }
+header .container a {
+    text-decoration: none;
+}
 header .logo {
     margin-top:-9px;
 }
@@ -76,7 +79,6 @@ header .logo i {
     top: 11px;
 }
 header .logo .text {
-    text-decoration: none;
     display: flex;
 }
 header .logo .text h3 {
